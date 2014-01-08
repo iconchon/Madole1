@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Madole</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_content">Content</string>
+    <string name="space"></string>
+    <string name="title_activity_profile_course">ProfileCourse</string>
+    <string name="title_activity_offline_mode">Offline Mode</string>
+    <string name="title_activity_server">Setting Server</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_help">Help</string>
+    <string name="blank">-</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_process">Process</string>
+    <string name="title_activity_download">Download</string>
+    <string name="title_activity_course">Course</string>
+    <string name="title_activity_profile_list">ProfileList</string>
+    <string name="title_activity_contents_list">ContentsList</string>
+    <string name="title_activity_file_list">FileList</string>
+    <string name="title_activity_connect">Connect</string>
+    <string name="Madole">Madole</string>
+    <string name="title_activity_instant_message">InstantMessage</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iconchon.madole1"
+    android:versionCode="1"
+    android:versionName="1.0 beta" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="Madole"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.iconchon.madole1.Login"
+            android:enabled="true"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.MainMenu"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity android:name="com.iconchon.madole1.CourseList" >
+        </activity>
+        <activity android:name="com.iconchon.madole1.Profile" >
+        </activity>
+        <activity android:name="com.iconchon.madole1.ContentListDetail" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.ProfileCourse"
+            android:label="@string/title_activity_profile_course" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.OfflineMode"
+            android:label="@string/title_activity_offline_mode" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.Server"
+            android:label="@string/title_activity_server"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.About"
+            android:label="@string/title_activity_about"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.Feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.Help"
+            android:label="@string/title_activity_help"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.Details"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.Process"
+            android:label="@string/title_activity_process" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.Download"
+            android:label="@string/title_activity_download" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.MainCourse"
+            android:label="@string/title_activity_course" >
+        </activity>
+        <activity android:name="com.iconchon.madole1.ContentList" >
+        </activity>
+        <activity android:name="com.iconchon.madole1.ProfileList" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.ContentsList"
+            android:label="@string/title_activity_contents_list" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.FileList"
+            android:label="@string/title_activity_file_list" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.Connect"
+            android:label="@string/title_activity_connect"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.iconchon.madole1.InstantMessage"
+            android:label="@string/title_activity_instant_message" android:theme="@android:style/Theme.Dialog">
+        </activity>
+    </application>
+
+</manifest>
